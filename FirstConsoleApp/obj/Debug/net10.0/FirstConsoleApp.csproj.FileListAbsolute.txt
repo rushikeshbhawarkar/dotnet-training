@@ -1,0 +1,14 @@
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\bin\Debug\net10.0\FirstConsoleApp.exe
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\bin\Debug\net10.0\FirstConsoleApp.deps.json
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\bin\Debug\net10.0\FirstConsoleApp.runtimeconfig.json
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\bin\Debug\net10.0\FirstConsoleApp.dll
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\bin\Debug\net10.0\FirstConsoleApp.pdb
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.AssemblyInfoInputs.cache
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.AssemblyInfo.cs
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.dll
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\obj\Debug\net10.0\refint\FirstConsoleApp.dll
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.pdb
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\obj\Debug\net10.0\FirstConsoleApp.genruntimeconfig.cache
+C:\Users\rushi\OneDrive\Desktop\practical\FirstConsoleApp\obj\Debug\net10.0\ref\FirstConsoleApp.dll
