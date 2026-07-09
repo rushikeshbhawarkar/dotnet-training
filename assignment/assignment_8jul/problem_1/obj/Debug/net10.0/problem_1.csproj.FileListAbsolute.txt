@@ -1,0 +1,14 @@
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\bin\Debug\net10.0\problem_1.exe
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\bin\Debug\net10.0\problem_1.deps.json
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\bin\Debug\net10.0\problem_1.runtimeconfig.json
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\bin\Debug\net10.0\problem_1.dll
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\bin\Debug\net10.0\problem_1.pdb
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\obj\Debug\net10.0\problem_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\obj\Debug\net10.0\problem_1.AssemblyInfoInputs.cache
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\obj\Debug\net10.0\problem_1.AssemblyInfo.cs
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\obj\Debug\net10.0\problem_1.csproj.CoreCompileInputs.cache
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\obj\Debug\net10.0\problem_1.dll
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\obj\Debug\net10.0\refint\problem_1.dll
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\obj\Debug\net10.0\problem_1.pdb
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\obj\Debug\net10.0\problem_1.genruntimeconfig.cache
+C:\Users\rushi\OneDrive\Desktop\.net_practice\First_Program\problem_1\obj\Debug\net10.0\ref\problem_1.dll
