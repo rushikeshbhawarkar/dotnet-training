@@ -45,8 +45,6 @@ int x = 20;
 // Average power consumption
 // Number of lights in each category
 
-using System;
-
 class First{
 
 public void Display()

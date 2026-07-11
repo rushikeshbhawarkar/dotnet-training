@@ -1,0 +1,15 @@
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\bin\Debug\net10.0\jul_10.exe
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\bin\Debug\net10.0\jul_10.deps.json
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\bin\Debug\net10.0\jul_10.runtimeconfig.json
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\bin\Debug\net10.0\jul_10.dll
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\bin\Debug\net10.0\jul_10.pdb
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\obj\Debug\net10.0\jul_10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\obj\Debug\net10.0\jul_10.AssemblyInfoInputs.cache
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\obj\Debug\net10.0\jul_10.AssemblyInfo.cs
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\obj\Debug\net10.0\jul_10.csproj.CoreCompileInputs.cache
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\obj\Debug\net10.0\jul_10.sourcelink.json
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\obj\Debug\net10.0\jul_10.dll
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\obj\Debug\net10.0\refint\jul_10.dll
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\obj\Debug\net10.0\jul_10.pdb
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\obj\Debug\net10.0\jul_10.genruntimeconfig.cache
+C:\Users\rushi\OneDrive\Desktop\practical\jul_10\obj\Debug\net10.0\ref\jul_10.dll
