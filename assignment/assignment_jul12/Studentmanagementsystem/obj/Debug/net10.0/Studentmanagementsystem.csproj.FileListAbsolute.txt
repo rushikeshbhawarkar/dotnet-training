@@ -1,0 +1,14 @@
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\bin\Debug\net10.0\Studentmanagementsystem.exe
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\bin\Debug\net10.0\Studentmanagementsystem.deps.json
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\bin\Debug\net10.0\Studentmanagementsystem.runtimeconfig.json
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\bin\Debug\net10.0\Studentmanagementsystem.dll
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\bin\Debug\net10.0\Studentmanagementsystem.pdb
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\obj\Debug\net10.0\Studentmanagementsystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\obj\Debug\net10.0\Studentmanagementsystem.AssemblyInfoInputs.cache
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\obj\Debug\net10.0\Studentmanagementsystem.AssemblyInfo.cs
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\obj\Debug\net10.0\Studentmanagementsystem.csproj.CoreCompileInputs.cache
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\obj\Debug\net10.0\Studentmanagementsystem.dll
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\obj\Debug\net10.0\refint\Studentmanagementsystem.dll
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\obj\Debug\net10.0\Studentmanagementsystem.pdb
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\obj\Debug\net10.0\Studentmanagementsystem.genruntimeconfig.cache
+C:\Users\rushi\OneDrive\Desktop\.net_practice\assignment_jul12\Studentmanagementsystem\obj\Debug\net10.0\ref\Studentmanagementsystem.dll

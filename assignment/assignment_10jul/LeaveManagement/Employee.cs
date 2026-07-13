@@ -2,7 +2,6 @@ using System;
 
 namespace LeaveManagement
 {
-    // Abstract base class
     public abstract class Employee
     {
         public int EmployeeId { get; set; }

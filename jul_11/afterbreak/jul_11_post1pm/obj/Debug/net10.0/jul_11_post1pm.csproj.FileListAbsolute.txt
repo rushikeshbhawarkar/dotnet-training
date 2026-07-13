@@ -1,0 +1,15 @@
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\bin\Debug\net10.0\jul_11_post1pm.exe
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\bin\Debug\net10.0\jul_11_post1pm.deps.json
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\bin\Debug\net10.0\jul_11_post1pm.runtimeconfig.json
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\bin\Debug\net10.0\jul_11_post1pm.dll
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\bin\Debug\net10.0\jul_11_post1pm.pdb
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\obj\Debug\net10.0\jul_11_post1pm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\obj\Debug\net10.0\jul_11_post1pm.AssemblyInfoInputs.cache
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\obj\Debug\net10.0\jul_11_post1pm.AssemblyInfo.cs
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\obj\Debug\net10.0\jul_11_post1pm.csproj.CoreCompileInputs.cache
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\obj\Debug\net10.0\jul_11_post1pm.sourcelink.json
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\obj\Debug\net10.0\jul_11_post1pm.dll
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\obj\Debug\net10.0\refint\jul_11_post1pm.dll
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\obj\Debug\net10.0\jul_11_post1pm.pdb
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\obj\Debug\net10.0\jul_11_post1pm.genruntimeconfig.cache
+C:\Users\rushi\OneDrive\Desktop\practical\jul_11\afterbreak\jul_11_post1pm\obj\Debug\net10.0\ref\jul_11_post1pm.dll
