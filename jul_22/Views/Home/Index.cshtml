@@ -1,0 +1,34 @@
+﻿@model jul_22.Models.Stationary
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<form asp-controller="Home" asp-action="Index" method="post">
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control"/>
+        <span asp-validation-for="Name" style="color:blue"></span>
+    </div>
+    <br/>
+    <div>
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" style="color:blue"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="Category"></label>
+        <input asp-for="Category" class="form-control" />
+        <span asp-validation-for="Category" style="color:blue"></span>
+    </div>
+    <br />
+    <div>
+        <label asp-for="Brand"></label>
+        <input asp-for="Brand" class="form-control" />
+        <span asp-validation-for="Brand" style="color:blue"></span>
+    </div>
+    </br>
+    <button type="submit">Submit</button>
+    </form>

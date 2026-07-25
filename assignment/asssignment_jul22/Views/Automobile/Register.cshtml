@@ -1,0 +1,57 @@
+﻿@model YourNamespace.Models.Automobile
+
+@{
+    ViewData["Title"] = "Automobile Registration";
+}
+
+<h2>Automobile Registration</h2>
+
+<form asp-action="Register" asp-controller="Automobile" method="post">
+    @* Vehicle ID *@
+    <div class="form-group">
+        <label asp-for="VehicleId"></label>
+        <input asp-for="VehicleId" class="form-control" />
+        <span asp-validation-for="VehicleId" class="text-danger"></span>
+    </div>
+
+    @* Vehicle Name *@
+    <div class="form-group">
+        <label asp-for="VehicleName"></label>
+        <input asp-for="VehicleName" class="form-control" />
+        <span asp-validation-for="VehicleName" class="text-danger"></span>
+    </div>
+
+    @* Brand *@
+    <div class="form-group">
+        <label asp-for="Brand"></label>
+        <input asp-for="Brand" class="form-control" />
+        <span asp-validation-for="Brand" class="text-danger"></span>
+    </div>
+
+    @* Model Year *@
+    <div class="form-group">
+        <label asp-for="ModelYear"></label>
+        <input asp-for="ModelYear" class="form-control" />
+        <span asp-validation-for="ModelYear" class="text-danger"></span>
+    </div>
+
+    @* Price *@
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    @* Fuel Type *@
+    <div class="form-group">
+        <label asp-for="FuelType"></label>
+        <input asp-for="FuelType" class="form-control" />
+        <span asp-validation-for="FuelType" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}

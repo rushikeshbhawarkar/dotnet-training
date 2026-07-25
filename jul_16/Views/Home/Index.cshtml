@@ -1,0 +1,41 @@
+﻿@model List<jul_16.Models.Student>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>Welcome</h1>
+    <p>Learn about <a href="https://microsoft.com">building Web apps with ASP.NET Core</a>.</p>
+
+    <!-- Added a simple green border around the table -->
+    <table border="1" cellpadding="10" style="margin: 0 auto; border-collapse: collapse; border: 2px solid green;">
+        <thead>
+            <!-- Dark green header row with white text -->
+            <tr style="background-color: green; color:black;">
+                <th>ID</th>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>GENDER</th>
+                <th>COURSE</th>
+                <th>QUALIFICATION</th>
+                <th>FEES</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+           
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.Age</td>
+                    <td>@item.Gender</td>
+                    <td>@item.Course</td>
+                    <td>@item.Qualification</td>
+                    <td>$@item.Fees</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<EmployeeManagementApp.Models.Department>
+
+@{
+    ViewData["Title"] = "Department Directory";
+}
+
+<div class="container mt-4">
+    <h2>Department List</h2>
+    <table class="table table-striped table-bordered mt-3">
+        <thead class="table-dark">
+            <tr>
+                <th>Department Name</th>
+                <th>Department Head</th>
+                <th>Head Contact</th>
+                <th>Head Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dept in Model)
+            {
+                <tr>
+                    <td>@dept.DeptName</td>
+                    <td>@dept.DeptHead</td>
+                    <td>@dept.HeadContact</td>
+                    <td>@dept.HeadEmail</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

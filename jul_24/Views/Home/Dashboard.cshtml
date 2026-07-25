@@ -1,0 +1,30 @@
+﻿@model IEnumerable<jul_24.Models.Student>
+
+<h3>Dashboard</h3>
+<h2>Welcome @ViewBag.User</h2>
+<p>Example of ASP.Net Session With MVC</p>
+
+<br />
+
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in Model)
+        {
+            <tr>
+                <td>@student.RollNo</td>
+                <td>@student.Username</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<br />
+
+<a asp-action="Logout">LOGOUT</a>
