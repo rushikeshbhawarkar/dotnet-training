@@ -1,0 +1,9 @@
+C:\Users\rushi\OneDrive\Desktop\practical\jul_27\obj\Debug\net10.0\jul_27.csproj.AssemblyReference.cache
+C:\Users\rushi\OneDrive\Desktop\practical\jul_27\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\rushi\OneDrive\Desktop\practical\jul_27\obj\Debug\net10.0\jul_27.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rushi\OneDrive\Desktop\practical\jul_27\obj\Debug\net10.0\jul_27.AssemblyInfoInputs.cache
+C:\Users\rushi\OneDrive\Desktop\practical\jul_27\obj\Debug\net10.0\jul_27.AssemblyInfo.cs
+C:\Users\rushi\OneDrive\Desktop\practical\jul_27\obj\Debug\net10.0\jul_27.csproj.CoreCompileInputs.cache
+C:\Users\rushi\OneDrive\Desktop\practical\jul_27\obj\Debug\net10.0\jul_27.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rushi\OneDrive\Desktop\practical\jul_27\obj\Debug\net10.0\jul_27.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rushi\OneDrive\Desktop\practical\jul_27\obj\Debug\net10.0\jul_27.sourcelink.json
