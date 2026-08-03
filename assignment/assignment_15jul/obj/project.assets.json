@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_15jul\\problem_4.csproj",
+      "projectUniqueName": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_15jul\\problem_4.csproj",
       "projectName": "problem_4",
-      "projectPath": "c:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_15jul\\problem_4.csproj",
+      "projectPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_15jul\\problem_4.csproj",
       "packagesPath": "C:\\Users\\rushi\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_15jul\\obj\\",
+      "outputPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_15jul\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
