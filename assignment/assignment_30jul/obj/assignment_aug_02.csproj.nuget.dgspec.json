@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_30jul\\assignment_aug_02.csproj": {}
+    "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_30jul\\assignment_aug_02.csproj": {}
   },
   "projects": {
-    "c:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_30jul\\assignment_aug_02.csproj": {
+    "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_30jul\\assignment_aug_02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_30jul\\assignment_aug_02.csproj",
+        "projectUniqueName": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_30jul\\assignment_aug_02.csproj",
         "projectName": "assignment_aug_02",
-        "projectPath": "c:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_30jul\\assignment_aug_02.csproj",
+        "projectPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_30jul\\assignment_aug_02.csproj",
         "packagesPath": "C:\\Users\\rushi\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_30jul\\obj\\",
+        "outputPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_30jul\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
