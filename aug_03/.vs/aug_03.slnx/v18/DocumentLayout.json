@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_03\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_03\\gobalexception\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|solutionrelative:gobalexception\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_03\\repository\\ibatchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|solutionrelative:controllers\\batchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_03\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_03\\aug_03.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{62295B8D-05B3-F57C-4316-2E4B524840E6}|aug_03.csproj|solutionrelative:aug_03.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -54,23 +54,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BatchService.cs",
-              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Services\\BatchService.cs",
-              "RelativeDocumentMoniker": "Services\\BatchService.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Services\\BatchService.cs",
-              "RelativeToolTip": "Services\\BatchService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwAAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T06:10:49.951Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IBatchService.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Repository\\IBatchService.cs",
               "RelativeDocumentMoniker": "Repository\\IBatchService.cs",
@@ -82,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Batch.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Model\\Batch.cs",
               "RelativeDocumentMoniker": "Model\\Batch.cs",
@@ -107,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
@@ -119,20 +111,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T05:25:26.909Z",
+              "WhenOpened": "2026-08-03T05:25:26.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwDQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T04:51:10.521Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "BatchService.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Services\\BatchService.cs",
+              "RelativeDocumentMoniker": "Services\\BatchService.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Services\\BatchService.cs",
+              "RelativeToolTip": "Services\\BatchService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T06:10:49.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BatchController.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Controllers\\BatchController.cs",
               "RelativeDocumentMoniker": "Controllers\\BatchController.cs",
@@ -141,18 +157,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-03T06:13:58.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "Services\\StudentService.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_03\\Services\\StudentService.cs",
-              "RelativeToolTip": "Services\\StudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T04:51:10.521Z"
             },
             {
               "$type": "Document",

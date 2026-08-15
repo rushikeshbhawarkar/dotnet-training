@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalapi\\model\\appointmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|solutionrelative:model\\appointmenthistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalapi\\model\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|solutionrelative:model\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalapi\\model\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|solutionrelative:model\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalapi\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|solutionrelative:model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalapi\\model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D66CCE9D-8F6A-4638-BEB0-899501C4F5B7}|HospitalAPI.csproj|solutionrelative:model\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T11:42:27.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentHistory.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Model\\AppointmentHistory.cs",
+              "RelativeDocumentMoniker": "Model\\AppointmentHistory.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Model\\AppointmentHistory.cs",
+              "RelativeToolTip": "Model\\AppointmentHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T11:21:57.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Model\\Appointment.cs",
+              "RelativeDocumentMoniker": "Model\\Appointment.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Model\\Appointment.cs",
+              "RelativeToolTip": "Model\\Appointment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T11:21:37.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Model\\Department.cs",
+              "RelativeDocumentMoniker": "Model\\Department.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Model\\Department.cs",
+              "RelativeToolTip": "Model\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T11:21:25.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Model\\Patient.cs",
+              "RelativeDocumentMoniker": "Model\\Patient.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Model\\Patient.cs",
+              "RelativeToolTip": "Model\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T11:18:45.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Model\\Doctor.cs",
+              "RelativeDocumentMoniker": "Model\\Doctor.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalAPI\\Model\\Doctor.cs",
+              "RelativeToolTip": "Model\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T10:55:25.709Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

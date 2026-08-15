@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\repository\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|solutionrelative:repository\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\repository\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|solutionrelative:repository\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D485D25-C664-48CF-460B-10331BF14C08}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +46,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -58,31 +62,17 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-06T05:43:02.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-06T05:43:02.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Repository\\IStudentService.cs",
-              "RelativeDocumentMoniker": "Repository\\IStudentService.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Repository\\IStudentService.cs",
-              "RelativeToolTip": "Repository\\IStudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T05:23:52.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "Services\\StudentService.cs",
               "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Services\\StudentService.cs",
               "RelativeToolTip": "Services\\StudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T05:30:35.254Z",
               "EditorCaption": ""
@@ -97,8 +87,7 @@
               "RelativeToolTip": "aug_04.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-04T05:09:58.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-04T05:09:58.286Z"
             },
             {
               "$type": "Document",
@@ -110,12 +99,11 @@
               "RelativeToolTip": "Controllers\\StudentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T05:40:44.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-04T05:40:44.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -128,6 +116,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Repository\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Repository\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Repository\\IStudentService.cs",
+              "RelativeToolTip": "Repository\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T05:23:52.244Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Model\\Student.cs",
@@ -136,8 +136,7 @@
               "RelativeToolTip": "Model\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T05:18:11.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-04T05:18:11.235Z"
             },
             {
               "$type": "Document",
@@ -149,8 +148,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-04T05:56:25.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-04T05:56:25.07Z"
             },
             {
               "$type": "Document",
@@ -162,8 +160,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T05:53:48.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-04T05:53:48.9Z"
             }
           ]
         }

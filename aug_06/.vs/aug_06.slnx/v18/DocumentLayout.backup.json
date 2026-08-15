@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8C454E6-53D6-48BB-95DB-436299EB80AD}|aug_06.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_06\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8C454E6-53D6-48BB-95DB-436299EB80AD}|aug_06.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{63FC3111-7381-75F2-57F2-EF42A3A8512D}|aug_06.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_06\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63FC3111-7381-75F2-57F2-EF42A3A8512D}|aug_06.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_06\\Services\\ProductService.cs",
               "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAIA0wBMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAMwBMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-06T06:17:32.81Z",
               "EditorCaption": ""

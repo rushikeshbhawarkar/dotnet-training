@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\model\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:model\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\model\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:model\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\controllers\\batchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:controllers\\batchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\services\\batchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:services\\batchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\model\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:model\\batch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\repository\\ibatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:repository\\ibatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:repository\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\assignment\\assignment_aug_08\\repository\\iteacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F657138-EA76-47A4-9BED-55AB3E12016A}|assignment_aug_08.csproj|solutionrelative:repository\\iteacherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TeacherController.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Controllers\\TeacherController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TeacherController.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Controllers\\TeacherController.cs",
+              "RelativeToolTip": "Controllers\\TeacherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:43:17.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:42:10.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:40:32.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Services\\CourseService.cs",
+              "RelativeToolTip": "Services\\CourseService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:24:03.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "Model\\Student.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Model\\Student.cs",
+              "RelativeToolTip": "Model\\Student.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T11:59:22.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentCourse.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Model\\StudentCourse.cs",
+              "RelativeDocumentMoniker": "Model\\StudentCourse.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Model\\StudentCourse.cs",
+              "RelativeToolTip": "Model\\StudentCourse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:00:26.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Model\\Teacher.cs",
+              "RelativeDocumentMoniker": "Model\\Teacher.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Model\\Teacher.cs",
+              "RelativeToolTip": "Model\\Teacher.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T11:59:48.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherService.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Services\\TeacherService.cs",
+              "RelativeDocumentMoniker": "Services\\TeacherService.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Services\\TeacherService.cs",
+              "RelativeToolTip": "Services\\TeacherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:23:41.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Model\\Course.cs",
+              "RelativeDocumentMoniker": "Model\\Course.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Model\\Course.cs",
+              "RelativeToolTip": "Model\\Course.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:00:52.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BatchController.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Controllers\\BatchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BatchController.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Controllers\\BatchController.cs",
+              "RelativeToolTip": "Controllers\\BatchController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:36:22.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BatchService.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Services\\BatchService.cs",
+              "RelativeDocumentMoniker": "Services\\BatchService.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Services\\BatchService.cs",
+              "RelativeToolTip": "Services\\BatchService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA4wDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:24:25.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Batch.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Model\\Batch.cs",
+              "RelativeDocumentMoniker": "Model\\Batch.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Model\\Batch.cs",
+              "RelativeToolTip": "Model\\Batch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:00:09.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:23:21.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:01:21.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBatchRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Repository\\IBatchRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IBatchRepository.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Repository\\IBatchRepository.cs",
+              "RelativeToolTip": "Repository\\IBatchRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:17:19.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Repository\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ICourseRepository.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Repository\\ICourseRepository.cs",
+              "RelativeToolTip": "Repository\\ICourseRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:17:34.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ITeacherRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Repository\\ITeacherRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ITeacherRepository.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Repository\\ITeacherRepository.cs",
+              "RelativeToolTip": "Repository\\ITeacherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:16:48.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Repository\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\assignment\\assignment_aug_08\\Repository\\IStudentRepository.cs",
+              "RelativeToolTip": "Repository\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T12:16:32.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

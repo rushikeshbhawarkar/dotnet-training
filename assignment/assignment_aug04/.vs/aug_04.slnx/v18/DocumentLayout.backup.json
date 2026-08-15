@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{335EAC7A-AF8E-402B-B873-77C939BBEF8F}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{335EAC7A-AF8E-402B-B873-77C939BBEF8F}|aug_04.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{335EAC7A-AF8E-402B-B873-77C939BBEF8F}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{335EAC7A-AF8E-402B-B873-77C939BBEF8F}|aug_04.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{335EAC7A-AF8E-402B-B873-77C939BBEF8F}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{335EAC7A-AF8E-402B-B873-77C939BBEF8F}|aug_04.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{335EAC7A-AF8E-402B-B873-77C939BBEF8F}|aug_04.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_04\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -50,8 +50,8 @@
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\appsettings.json*",
-              "RelativeToolTip": "appsettings.json*",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-08-04T05:56:25.07Z",
@@ -63,8 +63,8 @@
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Repository\\IStudentService.cs",
               "RelativeDocumentMoniker": "Repository\\IStudentService.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Repository\\IStudentService.cs*",
-              "RelativeToolTip": "Repository\\IStudentService.cs*",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Repository\\IStudentService.cs",
+              "RelativeToolTip": "Repository\\IStudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T05:23:52.244Z",
@@ -72,13 +72,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "Services\\StudentService.cs",
               "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Services\\StudentService.cs*",
               "RelativeToolTip": "Services\\StudentService.cs*",
-              "ViewState": "AgIAABAAAAAAAAAAAAA4wDAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T05:30:35.254Z",
               "EditorCaption": ""
@@ -89,8 +89,8 @@
               "Title": "aug_04",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\aug_04.csproj",
               "RelativeDocumentMoniker": "aug_04.csproj",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\aug_04.csproj*",
-              "RelativeToolTip": "aug_04.csproj*",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\aug_04.csproj",
+              "RelativeToolTip": "aug_04.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-08-04T05:09:58.286Z",
@@ -102,8 +102,8 @@
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Controllers\\StudentsController.cs*",
-              "RelativeToolTip": "Controllers\\StudentsController.cs*",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Controllers\\StudentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T05:40:44.249Z",
@@ -111,12 +111,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Data\\AppDbContext.cs*",
-              "RelativeToolTip": "Data\\AppDbContext.cs*",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T05:26:38.146Z",
@@ -128,8 +128,8 @@
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Model\\Student.cs",
               "RelativeDocumentMoniker": "Model\\Student.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Model\\Student.cs*",
-              "RelativeToolTip": "Model\\Student.cs*",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Model\\Student.cs",
+              "RelativeToolTip": "Model\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T05:18:11.235Z",
@@ -141,8 +141,8 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_04\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T05:53:48.9Z",
