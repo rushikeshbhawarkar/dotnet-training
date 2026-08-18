@@ -1,0 +1,511 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:models\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\appointment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\appointment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\appointment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\appointment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\appointment\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\appointment\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\appointment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\appointment\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\appointment\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\doctor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\doctor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\doctor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\doctor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\doctor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\doctor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\doctor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\doctor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\patient\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\patient\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\doctor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\patient\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\patient\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\project\\hospitalapi\\hospitalmvc\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA1CC23-0C18-61E7-381E-CDB401274CCE}|HospitalMVC.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Department\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Department\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Department\\Delete.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwDEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:34:49.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAFQAAAAAbGZmZiYvwHQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:37:44.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-18T13:13:31.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAswCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:38:05.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:22:36.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Appointment\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Appointment\\Index.cshtml",
+              "RelativeToolTip": "Views\\Appointment\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwEAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:35:50.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Appointment\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointment\\Details.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Appointment\\Details.cshtml",
+              "RelativeToolTip": "Views\\Appointment\\Details.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwEMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:35:57.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Models\\Doctor.cs",
+              "RelativeDocumentMoniker": "Models\\Doctor.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Models\\Doctor.cs",
+              "RelativeToolTip": "Models\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T18:37:10.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABcAAAAAZ2ZmZmYUwBgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:46:10.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T18:37:25.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Appointment\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointment\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Appointment\\Create.cshtml",
+              "RelativeToolTip": "Views\\Appointment\\Create.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:36:05.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Appointment\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointment\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Appointment\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Appointment\\Edit.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAiwHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:36:14.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAwKgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:38:46.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:34:42.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Appointment\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Appointment\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Appointment\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Appointment\\Delete.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwEkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:36:24.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwFkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:37:30.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:34:35.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Department\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Details.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Department\\Details.cshtml",
+              "RelativeToolTip": "Views\\Department\\Details.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwCkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:34:26.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwDYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:34:17.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Doctor\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctor\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Doctor\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Doctor\\Delete.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwEkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:32:58.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Doctor\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctor\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Doctor\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Doctor\\Edit.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwHgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:32:50.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Doctor\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Doctor\\Create.cshtml",
+              "RelativeToolTip": "Views\\Doctor\\Create.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAiwHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:32:41.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Doctor\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctor\\Details.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Doctor\\Details.cshtml",
+              "RelativeToolTip": "Views\\Doctor\\Details.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwEMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:32:32.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Patient\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Patient\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Delete.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwDIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:25:19.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Doctor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doctor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Doctor\\Index.cshtml",
+              "RelativeToolTip": "Views\\Doctor\\Index.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwD4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:32:01.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Patient\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Patient\\Create.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:24:47.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Patient\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Patient\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Edit.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAcwGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:25:04.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Patient\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Details.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Patient\\Details.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Details.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwC4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:24:24.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Patient\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Views\\Patient\\Index.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-17T21:24:09.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\Project\\HospitalAPI\\HospitalMVC\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAwwJUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-17T20:26:59.872Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Hospital Management System";
+}
+
+<div class="text-center mb-5">
+    <h1 class="display-4">Hospital Management System</h1>
+    <p class="lead">
+        Manage patients, doctors, departments and appointments.
+    </p>
+</div>
+
+<div class="row">
+
+    <!-- Patients -->
+    <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+                <h3 class="card-title">Patients</h3>
+
+                <p class="card-text">
+                    Manage patient information and records.
+                </p>
+
+                <a asp-controller="Patient"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    View Patients
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Doctors -->
+    <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+                <h3 class="card-title">Doctors</h3>
+
+                <p class="card-text">
+                    Manage doctors and their specializations.
+                </p>
+
+                <a asp-controller="Doctor"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    View Doctors
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Departments -->
+    <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+                <h3 class="card-title">Departments</h3>
+
+                <p class="card-text">
+                    Manage hospital departments.
+                </p>
+
+                <a asp-controller="Department"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    View Departments
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Appointments -->
+    <div class="col-md-6 col-lg-3 mb-4">
+        <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+                <h3 class="card-title">Appointments</h3>
+
+                <p class="card-text">
+                    Manage patient appointments.
+                </p>
+
+                <a asp-controller="Appointment"
+                   asp-action="Index"
+                   class="btn btn-primary">
+                    View Appointments
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
