@@ -17,11 +17,14 @@ namespace HospitalMVC.Controllers
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
+            var response = await client.GetAsync("api/Patient");
 
-            var patients =
-                await client.GetFromJsonAsync<List<Patient>>(
-                    "api/Patient");
+            if (!response.IsSuccessStatusCode)
+            {
+                return View(new List<Patient>());
+            }
 
+            var patients = await response.Content.ReadFromJsonAsync<List<Patient>>();
             return View(patients ?? new List<Patient>());
         }
 
@@ -29,16 +32,14 @@ namespace HospitalMVC.Controllers
         public async Task<IActionResult> Details(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
+            var response = await client.GetAsync($"api/Patient/{id}");
 
-            var patient =
-                await client.GetFromJsonAsync<Patient>(
-                    $"api/Patient/{id}");
-
-            if (patient == null)
+            if (!response.IsSuccessStatusCode)
             {
                 return NotFound();
             }
 
+            var patient = await response.Content.ReadFromJsonAsync<Patient>();
             return View(patient);
         }
 
@@ -50,6 +51,7 @@ namespace HospitalMVC.Controllers
 
         // POST: Patient/Create
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Patient patient)
         {
             if (!ModelState.IsValid)
@@ -58,13 +60,11 @@ namespace HospitalMVC.Controllers
             }
 
             var client = _httpClientFactory.CreateClient("HospitalAPI");
-
-            var response = await client.PostAsJsonAsync(
-                "api/Patient",
-                patient);
+            var response = await client.PostAsJsonAsync("api/Patient", patient);
 
             if (!response.IsSuccessStatusCode)
             {
+                ModelState.AddModelError(string.Empty, "Failed to create patient record.");
                 return View(patient);
             }
 
@@ -75,24 +75,21 @@ namespace HospitalMVC.Controllers
         public async Task<IActionResult> Edit(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
+            var response = await client.GetAsync($"api/Patient/{id}");
 
-            var patient =
-                await client.GetFromJsonAsync<Patient>(
-                    $"api/Patient/{id}");
-
-            if (patient == null)
+            if (!response.IsSuccessStatusCode)
             {
                 return NotFound();
             }
 
+            var patient = await response.Content.ReadFromJsonAsync<Patient>();
             return View(patient);
         }
 
         // POST: Patient/Edit/5
         [HttpPost]
-        public async Task<IActionResult> Edit(
-            int id,
-            Patient patient)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Patient patient)
         {
             if (!ModelState.IsValid)
             {
@@ -100,13 +97,11 @@ namespace HospitalMVC.Controllers
             }
 
             var client = _httpClientFactory.CreateClient("HospitalAPI");
-
-            var response = await client.PutAsJsonAsync(
-                $"api/Patient/{id}",
-                patient);
+            var response = await client.PutAsJsonAsync($"api/Patient/{id}", patient);
 
             if (!response.IsSuccessStatusCode)
             {
+                ModelState.AddModelError(string.Empty, "Failed to update patient record.");
                 return View(patient);
             }
 
@@ -117,27 +112,24 @@ namespace HospitalMVC.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
+            var response = await client.GetAsync($"api/Patient/{id}");
 
-            var patient =
-                await client.GetFromJsonAsync<Patient>(
-                    $"api/Patient/{id}");
-
-            if (patient == null)
+            if (!response.IsSuccessStatusCode)
             {
                 return NotFound();
             }
 
+            var patient = await response.Content.ReadFromJsonAsync<Patient>();
             return View(patient);
         }
 
         // POST: Patient/Delete/5
         [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
-
-            var response = await client.DeleteAsync(
-                $"api/Patient/{id}");
+            var response = await client.DeleteAsync($"api/Patient/{id}");
 
             if (!response.IsSuccessStatusCode)
             {

@@ -1,16 +1,25 @@
-﻿namespace HospitalAPI.Model
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace HospitalAPI.Model
 {
     public class Appointment
     {
         public int AppointmentId { get; set; }
 
+        [Required(ErrorMessage = "Appointment Date is Required")]
         public DateTime AppointmentDate { get; set; }
 
+        [Required(ErrorMessage = "Status is Required")]
+        [StringLength(50, MinimumLength = 3,
+            ErrorMessage = "Status length is between 3 to 50")]
         public string? Status { get; set; }
 
+        [Required(ErrorMessage = "Reason is Required")]
+        [StringLength(100, MinimumLength = 3,
+            ErrorMessage = "Reason length is between 3 to 100")]
         public string? Reason { get; set; }
 
-        //Relationships
+        // Relationships
 
         // Patient relationship
         // One Patient → Many Appointments
@@ -29,6 +38,5 @@
         // Appointment History relationship
         // One Appointment → Many History Records
         public ICollection<AppointmentHistory>? AppointmentHistories { get; set; }
-
     }
 }

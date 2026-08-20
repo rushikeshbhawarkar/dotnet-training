@@ -1,5 +1,6 @@
 ﻿using HospitalAPI.DTOs;
 using HospitalAPI.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HospitalAPI.Controllers
@@ -36,28 +37,35 @@ namespace HospitalAPI.Controllers
             return Ok(doctor);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public IActionResult Add(DoctorDto doctorDto)
         {
-            var result = _service.Add(doctorDto);
+            var doctor = _service.Add(doctorDto);
 
-            return Ok(result);
+            return CreatedAtAction(
+                nameof(GetById),
+                new { id = doctor.DoctorId },
+                doctor
+            );
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Update(int id, DoctorDto doctorDto)
         {
-            var result = _service.Update(id, doctorDto);
+            var doctor = _service.Update(id, doctorDto);
 
-            if (result == null)
+            if (doctor == null)
             {
                 return NotFound();
             }
 
-            return Ok(result);
+            return Ok(doctor);
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
             var result = _service.Delete(id);
@@ -67,7 +75,7 @@ namespace HospitalAPI.Controllers
                 return NotFound();
             }
 
-            return Ok("Doctor deleted successfully.");
+            return NoContent();
         }
     }
 }

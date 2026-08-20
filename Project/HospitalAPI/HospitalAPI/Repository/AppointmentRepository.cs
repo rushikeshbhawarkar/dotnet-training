@@ -37,7 +37,7 @@ namespace HospitalAPI.Repositories
             return appointment;
         }
 
-        public Appointment? Update(int id, Appointment appointment)
+        public Appointment? Update(int id, Appointment appointment)//ho gaya ki phone lagana
         {
             var existingAppointment = _context.Appointments
                 .FirstOrDefault(a => a.AppointmentId == id);

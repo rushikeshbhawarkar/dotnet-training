@@ -1,4 +1,5 @@
 ﻿using aug_17_rest.Model;
+using aug_17_rest.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace aug_17_rest.Data
@@ -21,7 +22,7 @@ namespace aug_17_rest.Data
         //    //one Product ->many OrderItems
         //    modelBuilder.Entity<OrderItems>().HasOne(o => o.Order).WithMany(p => p.OrderItems).HasForeignKey(o => o.OrderId);
         //}
-
+        public DbSet<Category> Categories => Set<Category>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

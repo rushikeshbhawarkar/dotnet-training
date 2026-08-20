@@ -130,6 +130,37 @@
         }
       }
     },
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Department": {
       "get": {
         "tags": [
@@ -509,13 +540,16 @@
   "components": {
     "schemas": {
       "AppointmentDto": {
+        "required": [
+          "appointmentDate",
+          "doctorId",
+          "patientId",
+          "reason",
+          "status"
+        ],
         "type": "object",
         "properties": {
-          "patientId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "doctorId": {
+          "appointmentId": {
             "type": "integer",
             "format": "int32"
           },
@@ -524,10 +558,28 @@
             "format": "date-time"
           },
           "status": {
+            "maxLength": 50,
+            "minLength": 3,
+            "type": "string"
+          },
+          "reason": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "patientId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "patientName": {
             "type": "string",
             "nullable": true
           },
-          "reason": {
+          "doctorId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "doctorName": {
             "type": "string",
             "nullable": true
           }
@@ -535,21 +587,32 @@
         "additionalProperties": false
       },
       "DepartmentDto": {
+        "required": [
+          "departmentName",
+          "description"
+        ],
         "type": "object",
         "properties": {
-          "name": {
-            "type": "string",
-            "nullable": true
+          "departmentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "departmentName": {
+            "maxLength": 50,
+            "minLength": 3,
+            "type": "string"
           },
           "description": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
           }
         },
         "additionalProperties": false
       },
       "DoctorDto": {
         "required": [
+          "departmentId",
           "email",
           "name",
           "phone",
@@ -557,14 +620,18 @@
         ],
         "type": "object",
         "properties": {
+          "doctorId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "name": {
             "maxLength": 50,
-            "minLength": 0,
+            "minLength": 3,
             "type": "string"
           },
           "specialization": {
             "maxLength": 50,
-            "minLength": 0,
+            "minLength": 3,
             "type": "string"
           },
           "email": {
@@ -584,41 +651,86 @@
         },
         "additionalProperties": false
       },
-      "PatientDto": {
+      "LoginDto": {
         "type": "object",
         "properties": {
-          "name": {
+          "username": {
             "type": "string",
             "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PatientDto": {
+        "required": [
+          "address",
+          "dateOfBirth",
+          "email",
+          "gender",
+          "name",
+          "phone"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "maxLength": 30,
+            "minLength": 3,
+            "type": "string"
           },
           "dateOfBirth": {
             "type": "string",
             "format": "date-time"
           },
           "gender": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "email": {
+            "minLength": 1,
             "type": "string",
-            "nullable": true
+            "format": "email"
           },
           "phone": {
+            "minLength": 1,
             "type": "string",
-            "nullable": true
+            "format": "tel"
           },
           "address": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter your JWT token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
     }
   },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ],
   "tags": [
     {
       "name": "Appointment"
+    },
+    {
+      "name": "Auth"
     },
     {
       "name": "Department"

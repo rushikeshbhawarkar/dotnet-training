@@ -1,4 +1,4 @@
-﻿@model HospitalMVC.Models.Doctor
+﻿@model aug_17_mvc.Models.Doctor
 
 @{
     ViewData["Title"] = "Doctor Details";
@@ -6,63 +6,75 @@
 
 <h1>Doctor Details</h1>
 
-<hr />
+<div class="card">
+    <div class="card-body">
 
-<dl class="row">
+        <h4>Doctor Information</h4>
 
-    <dt class="col-sm-2">
-        Name
-    </dt>
+        <hr />
 
-    <dd class="col-sm-10">
-        @Model.Name
-    </dd>
+        <dl class="row">
 
-    <dt class="col-sm-2">
-        Specialization
-    </dt>
+            <dt class="col-sm-3">
+                Doctor Id
+            </dt>
 
-    <dd class="col-sm-10">
-        @Model.Specialization
-    </dd>
+            <dd class="col-sm-9">
+                @Model.DoctorId
+            </dd>
 
-    <dt class="col-sm-2">
-        Email
-    </dt>
+            <dt class="col-sm-3">
+                Name
+            </dt>
 
-    <dd class="col-sm-10">
-        @Model.Email
-    </dd>
+            <dd class="col-sm-9">
+                @Model.Name
+            </dd>
 
-    <dt class="col-sm-2">
-        Phone
-    </dt>
+            <dt class="col-sm-3">
+                Specialization
+            </dt>
 
-    <dd class="col-sm-10">
-        @Model.Phone
-    </dd>
+            <dd class="col-sm-9">
+                @Model.Specialization
+            </dd>
 
-    <dt class="col-sm-2">
-        Department Id
-    </dt>
+            <dt class="col-sm-3">
+                Email
+            </dt>
 
-    <dd class="col-sm-10">
-        @Model.DepartmentId
-    </dd>
+            <dd class="col-sm-9">
+                @Model.Email
+            </dd>
 
-</dl>
+            <dt class="col-sm-3">
+                Phone
+            </dt>
 
-<div>
+            <dd class="col-sm-9">
+                @Model.Phone
+            </dd>
 
-    <a asp-action="Edit"
-       asp-route-id="@Model.Id"
-       class="btn btn-warning">
-        Edit
-    </a>
+            <dt class="col-sm-3">
+                Department Id
+            </dt>
 
-    <a asp-action="Index"
-       class="btn btn-secondary">
-        Back to List
-    </a>
+            <dd class="col-sm-9">
+                @Model.DepartmentId
+            </dd>
 
+        </dl>
+
+        <a asp-action="Edit"
+           asp-route-id="@Model.DoctorId"
+           class="btn btn-warning">
+            Edit
+        </a>
+
+        <a asp-action="Index"
+           class="btn btn-secondary">
+            Back
+        </a>
+
+    </div>
 </div>

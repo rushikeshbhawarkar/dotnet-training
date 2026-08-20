@@ -1,43 +1,85 @@
 ﻿using HospitalAPI.DTOs;
 using HospitalAPI.Repositories;
-using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace HospitalAPI.Services
 {
     public class AuthService : IAuthService
     {
         private readonly IUserRepository _repository;
-        private readonly PasswordHasher<object> _passwordHasher;
+        private readonly IConfiguration _configuration;
 
-        public AuthService(IUserRepository repository)
+        public AuthService(
+            IUserRepository repository,
+            IConfiguration configuration)
         {
             _repository = repository;
-            _passwordHasher = new PasswordHasher<object>();
+            _configuration = configuration;
         }
 
         public string? Login(LoginDto loginDto)
         {
-            var user = _repository.GetByUsername(loginDto.Username);
+            if (loginDto.Username == null ||
+                loginDto.Password == null)
+            {
+                return null;
+            }
+
+            var user = _repository
+                .GetByUsername(loginDto.Username);
 
             if (user == null)
             {
                 return null;
             }
 
-            var result = _passwordHasher.VerifyHashedPassword(
-                null!,
-                user.PasswordHash,
-                loginDto.Password
-            );
-
-            if (result == PasswordVerificationResult.Failed)
+            if (user.Password != loginDto.Password)
             {
                 return null;
             }
 
-            // JWT token generation will be added here
+            var claims = new List<Claim>
+            {
+                new Claim(
+                    ClaimTypes.Name,
+                    user.Username!
+                ),
 
-            return null;
+                new Claim(
+                    ClaimTypes.Role,
+                    user.Role!
+                ),
+
+                new Claim(
+                    ClaimTypes.NameIdentifier,
+                    user.UserId.ToString()
+                )
+            };
+
+            var key = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(
+                    _configuration["Jwt:Key"]!
+                )
+            );
+
+            var credentials = new SigningCredentials(
+                key,
+                SecurityAlgorithms.HmacSha256
+            );
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Jwt:Issuer"],
+                audience: _configuration["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.UtcNow.AddHours(1),
+                signingCredentials: credentials
+            );
+
+            return new JwtSecurityTokenHandler()
+                .WriteToken(token);
         }
     }
 }

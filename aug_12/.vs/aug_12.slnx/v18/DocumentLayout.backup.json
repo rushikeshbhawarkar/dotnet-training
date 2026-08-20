@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T04:43:15.06Z",
               "EditorCaption": ""
@@ -127,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -135,7 +135,8 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-13T04:40:34.001Z"
+              "WhenOpened": "2026-08-13T04:40:34.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

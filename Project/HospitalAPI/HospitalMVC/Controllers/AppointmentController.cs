@@ -1,8 +1,8 @@
-﻿using HospitalMVC.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Net.Http.Json;
+using aug_17_mvc.Models;
 
-namespace HospitalMVC.Controllers
+namespace aug_17_mvc.Controllers
 {
     public class AppointmentController : Controller
     {
@@ -13,26 +13,22 @@ namespace HospitalMVC.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
-        // GET: Appointment/Index
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
-            var appointments =
-                await client.GetFromJsonAsync<List<Appointment>>(
-                    "api/Appointment");
+            var appointments = await client.GetFromJsonAsync<List<Appointment>>(
+                "api/Appointment");
 
-            return View(appointments ?? new List<Appointment>());
+            return View(appointments);
         }
 
-        // GET: Appointment/Details/5
         public async Task<IActionResult> Details(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
-            var appointment =
-                await client.GetFromJsonAsync<Appointment>(
-                    $"api/Appointment/{id}");
+            var appointment = await client.GetFromJsonAsync<Appointment>(
+                $"api/Appointment/{id}");
 
             if (appointment == null)
             {
@@ -42,13 +38,11 @@ namespace HospitalMVC.Controllers
             return View(appointment);
         }
 
-        // GET: Appointment/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Appointment/Create
         [HttpPost]
         public async Task<IActionResult> Create(Appointment appointment)
         {
@@ -63,22 +57,20 @@ namespace HospitalMVC.Controllers
                 "api/Appointment",
                 appointment);
 
-            if (!response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)
             {
-                return View(appointment);
+                return RedirectToAction(nameof(Index));
             }
 
-            return RedirectToAction(nameof(Index));
+            return View(appointment);
         }
 
-        // GET: Appointment/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
-            var appointment =
-                await client.GetFromJsonAsync<Appointment>(
-                    $"api/Appointment/{id}");
+            var appointment = await client.GetFromJsonAsync<Appointment>(
+                $"api/Appointment/{id}");
 
             if (appointment == null)
             {
@@ -88,7 +80,6 @@ namespace HospitalMVC.Controllers
             return View(appointment);
         }
 
-        // POST: Appointment/Edit/5
         [HttpPost]
         public async Task<IActionResult> Edit(
             int id,
@@ -105,22 +96,20 @@ namespace HospitalMVC.Controllers
                 $"api/Appointment/{id}",
                 appointment);
 
-            if (!response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)
             {
-                return View(appointment);
+                return RedirectToAction(nameof(Index));
             }
 
-            return RedirectToAction(nameof(Index));
+            return View(appointment);
         }
 
-        // GET: Appointment/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
-            var appointment =
-                await client.GetFromJsonAsync<Appointment>(
-                    $"api/Appointment/{id}");
+            var appointment = await client.GetFromJsonAsync<Appointment>(
+                $"api/Appointment/{id}");
 
             if (appointment == null)
             {
@@ -130,7 +119,6 @@ namespace HospitalMVC.Controllers
             return View(appointment);
         }
 
-        // POST: Appointment/Delete/5
         [HttpPost, ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
@@ -139,9 +127,9 @@ namespace HospitalMVC.Controllers
             var response = await client.DeleteAsync(
                 $"api/Appointment/{id}");
 
-            if (!response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)
             {
-                return NotFound();
+                return RedirectToAction(nameof(Index));
             }
 
             return RedirectToAction(nameof(Index));

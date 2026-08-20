@@ -1,4 +1,4 @@
-﻿@model HospitalMVC.Models.Doctor
+﻿@model aug_17_mvc.Models.Doctor
 
 @{
     ViewData["Title"] = "Edit Doctor";
@@ -6,116 +6,44 @@
 
 <h1>Edit Doctor</h1>
 
-<hr />
+<form asp-action="Edit"
+      asp-route-id="@Model.DoctorId"
+      method="post">
 
-<div class="row">
+    <input type="hidden" asp-for="DoctorId" />
 
-    <div class="col-md-6">
-
-        <form asp-action="Edit" method="post">
-
-            <input type="hidden"
-                   asp-for="Id" />
-
-            <div asp-validation-summary="ModelOnly"
-                 class="text-danger">
-            </div>
-
-            <div class="form-group mb-3">
-
-                <label asp-for="Name"
-                       class="form-label">
-                </label>
-
-                <input asp-for="Name"
-                       class="form-control" />
-
-                <span asp-validation-for="Name"
-                      class="text-danger">
-                </span>
-
-            </div>
-
-            <div class="form-group mb-3">
-
-                <label asp-for="Specialization"
-                       class="form-label">
-                </label>
-
-                <input asp-for="Specialization"
-                       class="form-control" />
-
-                <span asp-validation-for="Specialization"
-                      class="text-danger">
-                </span>
-
-            </div>
-
-            <div class="form-group mb-3">
-
-                <label asp-for="Email"
-                       class="form-label">
-                </label>
-
-                <input asp-for="Email"
-                       type="email"
-                       class="form-control" />
-
-                <span asp-validation-for="Email"
-                      class="text-danger">
-                </span>
-
-            </div>
-
-            <div class="form-group mb-3">
-
-                <label asp-for="Phone"
-                       class="form-label">
-                </label>
-
-                <input asp-for="Phone"
-                       class="form-control" />
-
-                <span asp-validation-for="Phone"
-                      class="text-danger">
-                </span>
-
-            </div>
-
-            <div class="form-group mb-3">
-
-                <label asp-for="DepartmentId"
-                       class="form-label">
-                </label>
-
-                <input asp-for="DepartmentId"
-                       type="number"
-                       class="form-control" />
-
-                <span asp-validation-for="DepartmentId"
-                      class="text-danger">
-                </span>
-
-            </div>
-
-            <button type="submit"
-                    class="btn btn-primary">
-                Save Changes
-            </button>
-
-            <a asp-action="Index"
-               class="btn btn-secondary">
-                Back
-            </a>
-
-        </form>
-
+    <div class="form-group mb-3">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
     </div>
 
-</div>
+    <div class="form-group mb-3">
+        <label asp-for="Specialization"></label>
+        <input asp-for="Specialization" class="form-control" />
+    </div>
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
+    <div class="form-group mb-3">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="DepartmentId"></label>
+        <input asp-for="DepartmentId" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Update
+    </button>
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+        Back
+    </a>
+
+</form>

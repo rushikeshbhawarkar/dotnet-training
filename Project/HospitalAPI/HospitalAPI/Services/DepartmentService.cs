@@ -17,10 +17,11 @@ namespace HospitalAPI.Services
         {
             var departments = _repository.GetAll();
 
-            return departments.Select(department => new DepartmentDto
+            return departments.Select(d => new DepartmentDto
             {
-                Name = department.DepartmentName,
-                Description = department.Description
+                DepartmentId = d.DepartmentId,
+                DepartmentName = d.DepartmentName,
+                Description = d.Description
             }).ToList();
         }
 
@@ -35,57 +36,46 @@ namespace HospitalAPI.Services
 
             return new DepartmentDto
             {
-                Name = department.DepartmentName,
+                DepartmentId = department.DepartmentId,
+                DepartmentName = department.DepartmentName,
                 Description = department.Description
             };
         }
 
         public DepartmentDto Add(DepartmentDto departmentDto)
         {
-            // DTO → Model
-
             var department = new Department
             {
-                DepartmentName = departmentDto.Name,
+                DepartmentName = departmentDto.DepartmentName,
                 Description = departmentDto.Description
             };
 
-            var savedDepartment = _repository.Add(department);
+            var addedDepartment = _repository.Add(department);
 
-            // Model → DTO
+            departmentDto.DepartmentId = addedDepartment.DepartmentId;
 
-            return new DepartmentDto
-            {
-                Name = savedDepartment.DepartmentName,
-                Description = savedDepartment.Description
-            };
+            return departmentDto;
         }
 
-        public DepartmentDto? Update(
-            int id,
-            DepartmentDto departmentDto)
+        public DepartmentDto? Update(int id, DepartmentDto departmentDto)
         {
-            // DTO → Model
-
             var department = new Department
             {
-                DepartmentName = departmentDto.Name,
+                DepartmentName = departmentDto.DepartmentName,
                 Description = departmentDto.Description
             };
 
-            var updatedDepartment =
-                _repository.Update(id, department);
+            var updatedDepartment = _repository.Update(id, department);
 
             if (updatedDepartment == null)
             {
                 return null;
             }
 
-            // Model → DTO
-
             return new DepartmentDto
             {
-                Name = updatedDepartment.DepartmentName,
+                DepartmentId = updatedDepartment.DepartmentId,
+                DepartmentName = updatedDepartment.DepartmentName,
                 Description = updatedDepartment.Description
             };
         }

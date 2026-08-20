@@ -17,13 +17,16 @@ namespace HospitalAPI.Services
         {
             var appointments = _repository.GetAll();
 
-            return appointments.Select(appointment => new AppointmentDto
+            return appointments.Select(a => new AppointmentDto
             {
-                PatientId = appointment.PatientId,
-                DoctorId = appointment.DoctorId,
-                AppointmentDate = appointment.AppointmentDate,
-                Status = appointment.Status,
-                Reason = appointment.Reason
+                AppointmentId = a.AppointmentId,
+                AppointmentDate = a.AppointmentDate,
+                Status = a.Status,
+                Reason = a.Reason,
+                PatientId = a.PatientId,
+                PatientName = a.Patient?.Name,
+                DoctorId = a.DoctorId,
+                DoctorName = a.Doctor?.Name
             }).ToList();
         }
 
@@ -38,75 +41,61 @@ namespace HospitalAPI.Services
 
             return new AppointmentDto
             {
-                PatientId = appointment.PatientId,
-                DoctorId = appointment.DoctorId,
+                AppointmentId = appointment.AppointmentId,
                 AppointmentDate = appointment.AppointmentDate,
                 Status = appointment.Status,
-                Reason = appointment.Reason
+                Reason = appointment.Reason,
+                PatientId = appointment.PatientId,
+                PatientName = appointment.Patient?.Name,
+                DoctorId = appointment.DoctorId,
+                DoctorName = appointment.Doctor?.Name
             };
         }
 
         public AppointmentDto Add(AppointmentDto appointmentDto)
         {
-            // DTO → Model
-
             var appointment = new Appointment
             {
-                PatientId = appointmentDto.PatientId,
-                DoctorId = appointmentDto.DoctorId,
                 AppointmentDate = appointmentDto.AppointmentDate,
                 Status = appointmentDto.Status,
-                Reason = appointmentDto.Reason
+                Reason = appointmentDto.Reason,
+                PatientId = appointmentDto.PatientId,
+                DoctorId = appointmentDto.DoctorId
             };
 
-            // Business logic will go here
+            var addedAppointment = _repository.Add(appointment);
 
-            var savedAppointment = _repository.Add(appointment);
+            appointmentDto.AppointmentId = addedAppointment.AppointmentId;
 
-            // Model → DTO
-
-            return new AppointmentDto
-            {
-                PatientId = savedAppointment.PatientId,
-                DoctorId = savedAppointment.DoctorId,
-                AppointmentDate = savedAppointment.AppointmentDate,
-                Status = savedAppointment.Status,
-                Reason = savedAppointment.Reason
-            };
+            return appointmentDto;
         }
 
-        public AppointmentDto? Update(
-            int id,
-            AppointmentDto appointmentDto)
+        public AppointmentDto? Update(int id, AppointmentDto appointmentDto)
         {
-            // DTO → Model
-
             var appointment = new Appointment
             {
-                PatientId = appointmentDto.PatientId,
-                DoctorId = appointmentDto.DoctorId,
                 AppointmentDate = appointmentDto.AppointmentDate,
                 Status = appointmentDto.Status,
-                Reason = appointmentDto.Reason
+                Reason = appointmentDto.Reason,
+                PatientId = appointmentDto.PatientId,
+                DoctorId = appointmentDto.DoctorId
             };
 
-            var updatedAppointment =
-                _repository.Update(id, appointment);
+            var updatedAppointment = _repository.Update(id, appointment);
 
             if (updatedAppointment == null)
             {
                 return null;
             }
 
-            // Model → DTO
-
             return new AppointmentDto
             {
-                PatientId = updatedAppointment.PatientId,
-                DoctorId = updatedAppointment.DoctorId,
+                AppointmentId = updatedAppointment.AppointmentId,
                 AppointmentDate = updatedAppointment.AppointmentDate,
                 Status = updatedAppointment.Status,
-                Reason = updatedAppointment.Reason
+                Reason = updatedAppointment.Reason,
+                PatientId = updatedAppointment.PatientId,
+                DoctorId = updatedAppointment.DoctorId
             };
         }
 

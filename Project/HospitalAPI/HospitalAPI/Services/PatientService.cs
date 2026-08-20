@@ -19,6 +19,7 @@ namespace HospitalAPI.Services
 
             var patientDtos = patients.Select(patient => new PatientDto
             {
+                Id = patient.PatientId, // Maps PatientId -> Id
                 Name = patient.Name,
                 DateOfBirth = patient.DateOfBirth,
                 Gender = patient.Gender,
@@ -41,6 +42,7 @@ namespace HospitalAPI.Services
 
             var patientDto = new PatientDto
             {
+                Id = patient.PatientId, // Maps PatientId -> Id
                 Name = patient.Name,
                 DateOfBirth = patient.DateOfBirth,
                 Gender = patient.Gender,
@@ -55,7 +57,6 @@ namespace HospitalAPI.Services
         public PatientDto Add(PatientDto patientDto)
         {
             // DTO → Model
-
             var patient = new Patient
             {
                 Name = patientDto.Name,
@@ -67,22 +68,18 @@ namespace HospitalAPI.Services
             };
 
             // Business rule
-
             if (patient.DateOfBirth > DateTime.Now)
             {
-                throw new Exception(
-                    "Date of birth cannot be in the future."
-                );
+                throw new Exception("Date of birth cannot be in the future.");
             }
 
             // Model → Repository
-
             var savedPatient = _repository.Add(patient);
 
             // Model → DTO
-
             var result = new PatientDto
             {
+                Id = savedPatient.PatientId, // Maps PatientId -> Id
                 Name = savedPatient.Name,
                 DateOfBirth = savedPatient.DateOfBirth,
                 Gender = savedPatient.Gender,
@@ -97,9 +94,9 @@ namespace HospitalAPI.Services
         public PatientDto? Update(int id, PatientDto patientDto)
         {
             // DTO → Model
-
             var patient = new Patient
             {
+                PatientId = id, // Maps id parameter -> PatientId
                 Name = patientDto.Name,
                 DateOfBirth = patientDto.DateOfBirth,
                 Gender = patientDto.Gender,
@@ -110,9 +107,7 @@ namespace HospitalAPI.Services
 
             if (patient.DateOfBirth > DateTime.Now)
             {
-                throw new Exception(
-                    "Date of birth cannot be in the future."
-                );
+                throw new Exception("Date of birth cannot be in the future.");
             }
 
             var updatedPatient = _repository.Update(id, patient);
@@ -123,9 +118,9 @@ namespace HospitalAPI.Services
             }
 
             // Model → DTO
-
             return new PatientDto
             {
+                Id = updatedPatient.PatientId, // Maps PatientId -> Id
                 Name = updatedPatient.Name,
                 DateOfBirth = updatedPatient.DateOfBirth,
                 Gender = updatedPatient.Gender,

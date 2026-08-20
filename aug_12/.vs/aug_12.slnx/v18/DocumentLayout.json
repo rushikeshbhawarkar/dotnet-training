@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +21,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ABB2EDE-405C-41FD-4961-1E076879B84B}|aug_12.csproj|c:\\users\\rushi\\onedrive\\desktop\\practical\\aug_12\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +78,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T04:43:15.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T05:34:41.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T04:57:11.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-12T04:38:58.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Repository\\IAuthService.cs",
               "RelativeDocumentMoniker": "Repository\\IAuthService.cs",
@@ -86,11 +138,12 @@
               "RelativeToolTip": "Repository\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T05:09:27.094Z"
+              "WhenOpened": "2026-08-12T05:09:27.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
@@ -98,36 +151,12 @@
               "RelativeToolTip": "Services\\AuthService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAiwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T05:07:32.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T04:43:15.06Z",
+              "WhenOpened": "2026-08-12T05:07:32.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-12T05:32:04.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -140,39 +169,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAiwE8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T05:34:41.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Model\\User.cs",
-              "RelativeDocumentMoniker": "Model\\User.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Model\\User.cs",
-              "RelativeToolTip": "Model\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T04:38:58.706Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwEUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T04:57:11.017Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\rushi\\OneDrive\\Desktop\\practical\\aug_12\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-12T05:32:04.058Z"
             },
             {
               "$type": "Document",

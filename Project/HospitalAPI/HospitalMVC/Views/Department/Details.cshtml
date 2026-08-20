@@ -1,4 +1,4 @@
-﻿@model HospitalMVC.Models.Department
+﻿@model aug_17_mvc.Models.Department
 
 @{
     ViewData["Title"] = "Department Details";
@@ -6,37 +6,47 @@
 
 <h1>Department Details</h1>
 
-<hr />
+<div class="card">
+    <div class="card-body">
 
-<dl class="row">
+        <dl class="row">
 
-    <dt class="col-sm-2">
-        Name
-    </dt>
+            <dt class="col-sm-3">
+                Department Id
+            </dt>
 
-    <dd class="col-sm-10">
-        @Model.Name
-    </dd>
+            <dd class="col-sm-9">
+                @Model.DepartmentId
+            </dd>
 
-    <dt class="col-sm-2">
-        Description
-    </dt>
+            <dt class="col-sm-3">
+                Department Name
+            </dt>
 
-    <dd class="col-sm-10">
-        @Model.Description
-    </dd>
+            <dd class="col-sm-9">
+                @Model.DepartmentName
+            </dd>
 
-</dl>
+            <dt class="col-sm-3">
+                Description
+            </dt>
 
-<div>
-    <a asp-action="Edit"
-       asp-route-id="@Model.Id"
-       class="btn btn-warning">
-        Edit
-    </a>
+            <dd class="col-sm-9">
+                @Model.Description
+            </dd>
 
-    <a asp-action="Index"
-       class="btn btn-secondary">
-        Back to List
-    </a>
+        </dl>
+
+        <a asp-action="Edit"
+           asp-route-id="@Model.DepartmentId"
+           class="btn btn-warning">
+            Edit
+        </a>
+
+        <a asp-action="Index"
+           class="btn btn-secondary">
+            Back
+        </a>
+
+    </div>
 </div>

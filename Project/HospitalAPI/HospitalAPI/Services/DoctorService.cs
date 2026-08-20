@@ -17,16 +17,15 @@ namespace HospitalAPI.Services
         {
             var doctors = _repository.GetAll();
 
-            var doctorDtos = doctors.Select(doctor => new DoctorDto
+            return doctors.Select(d => new DoctorDto
             {
-                Name = doctor.Name,
-                Specialization = doctor.Specialization,
-                Email = doctor.Email,
-                Phone = doctor.Phone,
-                DepartmentId = doctor.DepartmentId
+                DoctorId = d.DoctorId,
+                Name = d.Name,
+                Specialization = d.Specialization,
+                Email = d.Email,
+                Phone = d.Phone,
+                DepartmentId = d.DepartmentId
             }).ToList();
-
-            return doctorDtos;
         }
 
         public DoctorDto? GetById(int id)
@@ -40,6 +39,7 @@ namespace HospitalAPI.Services
 
             return new DoctorDto
             {
+                DoctorId = doctor.DoctorId,
                 Name = doctor.Name,
                 Specialization = doctor.Specialization,
                 Email = doctor.Email,
@@ -50,8 +50,6 @@ namespace HospitalAPI.Services
 
         public DoctorDto Add(DoctorDto doctorDto)
         {
-            // DTO → Model
-
             var doctor = new Doctor
             {
                 Name = doctorDto.Name,
@@ -61,26 +59,15 @@ namespace HospitalAPI.Services
                 DepartmentId = doctorDto.DepartmentId
             };
 
-            // Model → Repository
+            var addedDoctor = _repository.Add(doctor);
 
-            var savedDoctor = _repository.Add(doctor);
+            doctorDto.DoctorId = addedDoctor.DoctorId;
 
-            // Model → DTO
-
-            return new DoctorDto
-            {
-                Name = savedDoctor.Name,
-                Specialization = savedDoctor.Specialization,
-                Email = savedDoctor.Email,
-                Phone = savedDoctor.Phone,
-                DepartmentId = savedDoctor.DepartmentId
-            };
+            return doctorDto;
         }
 
         public DoctorDto? Update(int id, DoctorDto doctorDto)
         {
-            // DTO → Model
-
             var doctor = new Doctor
             {
                 Name = doctorDto.Name,
@@ -97,10 +84,9 @@ namespace HospitalAPI.Services
                 return null;
             }
 
-            // Model → DTO
-
             return new DoctorDto
             {
+                DoctorId = updatedDoctor.DoctorId,
                 Name = updatedDoctor.Name,
                 Specialization = updatedDoctor.Specialization,
                 Email = updatedDoctor.Email,

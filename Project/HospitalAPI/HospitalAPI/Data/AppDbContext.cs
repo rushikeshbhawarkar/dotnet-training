@@ -18,6 +18,24 @@ namespace HospitalAPI.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<User>().HasData(
+    new User
+    {
+        UserId = 1,
+        Username = "admin",
+        Password = "1234",
+        Role = "Admin"
+    },
+    new User
+    {
+        UserId = 2,
+        Username = "doctor",
+        Password = "1234",
+        Role = "Doctor"
+    }
+    
+);
+
             // Department 1 → Many Doctors
             modelBuilder.Entity<Doctor>()
                 .HasOne(d => d.Department)
@@ -43,6 +61,8 @@ namespace HospitalAPI.Data
                 .HasOne(ah => ah.Appointment)
                 .WithMany(a => a.AppointmentHistories)
                 .HasForeignKey(ah => ah.AppointmentId);
+
+
         }
     }
 }

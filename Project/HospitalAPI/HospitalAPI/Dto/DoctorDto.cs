@@ -1,27 +1,30 @@
-﻿using Microsoft.AspNetCore.SignalR;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace HospitalAPI.DTOs
 {
     public class DoctorDto
     {
-        [Required(ErrorMessage = " DoctorName is Required")]
-        [StringLength(50,ErrorMessage ="Name length is Max 50")]
+        public int DoctorId { get; set; }
+
+        [Required(ErrorMessage = "Doctor Name is Required")]
+        [StringLength(50, MinimumLength = 3,
+            ErrorMessage = "Max Length of Doctor Name is in between 3 to 50")]
         public string? Name { get; set; }
-        [Required(ErrorMessage ="Specialization is Required")]
-        [StringLength(50,ErrorMessage="Specilazation length is Max 50")]
 
+        [Required(ErrorMessage = "Specialization is Required")]
+        [StringLength(50, MinimumLength = 3,
+            ErrorMessage = "Specialization length is between 3 to 50")]
         public string? Specialization { get; set; }
-        [Required(ErrorMessage = "Email is Required")]
-        [EmailAddress( ErrorMessage = "Email is  Mandatory ")]
 
+        [Required(ErrorMessage = "Email is Required")]
+        [EmailAddress(ErrorMessage = "Invalid Email")]
         public string? Email { get; set; }
-        [Required(ErrorMessage = "Email is Required")]
-        [Phone(ErrorMessage = "PhoneNo is Invalid")]
 
+        [Required(ErrorMessage = "Phone is Required")]
+        [Phone(ErrorMessage = "Phone No is Invalid")]
         public string? Phone { get; set; }
-        // tu kar tera mai aata bahar se kaam khatam ki session band kar dena
-        //ok kitta baaje ayanga afte 45 min ok thik hai//ok thi hai //
+
+        [Required(ErrorMessage = "Department Id is Required")]
         public int DepartmentId { get; set; }
     }
 }

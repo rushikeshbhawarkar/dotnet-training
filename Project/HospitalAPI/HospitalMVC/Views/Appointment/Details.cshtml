@@ -1,4 +1,4 @@
-﻿@model HospitalMVC.Models.Appointment
+﻿@model aug_17_mvc.Models.Appointment
 
 @{
     ViewData["Title"] = "Appointment Details";
@@ -6,63 +6,73 @@
 
 <h1>Appointment Details</h1>
 
-<hr />
+<div class="card">
+    <div class="card-body">
 
-<dl class="row">
+        <dl class="row">
 
-    <dt class="col-sm-3">
-        Patient Id
-    </dt>
+            <dt class="col-sm-3">
+                Appointment Id
+            </dt>
 
-    <dd class="col-sm-9">
-        @Model.PatientId
-    </dd>
+            <dd class="col-sm-9">
+                @Model.AppointmentId
+            </dd>
 
-    <dt class="col-sm-3">
-        Doctor Id
-    </dt>
+            <dt class="col-sm-3">
+                Appointment Date
+            </dt>
 
-    <dd class="col-sm-9">
-        @Model.DoctorId
-    </dd>
+            <dd class="col-sm-9">
+                @Model.AppointmentDate.ToString("dd-MM-yyyy HH:mm")
+            </dd>
 
-    <dt class="col-sm-3">
-        Appointment Date
-    </dt>
+            <dt class="col-sm-3">
+                Status
+            </dt>
 
-    <dd class="col-sm-9">
-        @Model.AppointmentDate.ToString("dd-MM-yyyy HH:mm")
-    </dd>
+            <dd class="col-sm-9">
+                @Model.Status
+            </dd>
 
-    <dt class="col-sm-3">
-        Status
-    </dt>
+            <dt class="col-sm-3">
+                Reason
+            </dt>
 
-    <dd class="col-sm-9">
-        @Model.Status
-    </dd>
+            <dd class="col-sm-9">
+                @Model.Reason
+            </dd>
 
-    <dt class="col-sm-3">
-        Reason
-    </dt>
+            <dt class="col-sm-3">
+                Patient
+            </dt>
 
-    <dd class="col-sm-9">
-        @Model.Reason
-    </dd>
+            <dd class="col-sm-9">
+                @Model.PatientName
+                (@Model.PatientId)
+            </dd>
 
-</dl>
+            <dt class="col-sm-3">
+                Doctor
+            </dt>
 
-<div>
+            <dd class="col-sm-9">
+                @Model.DoctorName
+                (@Model.DoctorId)
+            </dd>
 
-    <a asp-action="Edit"
-       asp-route-id="@Model.Id"
-       class="btn btn-warning">
-        Edit
-    </a>
+        </dl>
 
-    <a asp-action="Index"
-       class="btn btn-secondary">
-        Back to List
-    </a>
+        <a asp-action="Edit"
+           asp-route-id="@Model.AppointmentId"
+           class="btn btn-warning">
+            Edit
+        </a>
 
+        <a asp-action="Index"
+           class="btn btn-secondary">
+            Back
+        </a>
+
+    </div>
 </div>

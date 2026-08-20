@@ -1,4 +1,4 @@
-﻿@model HospitalMVC.Models.Appointment
+﻿@model aug_17_mvc.Models.Appointment
 
 @{
     ViewData["Title"] = "Edit Appointment";
@@ -6,119 +6,68 @@
 
 <h1>Edit Appointment</h1>
 
-<hr />
+<form asp-action="Edit"
+      asp-route-id="@Model.AppointmentId"
+      method="post">
 
-<div class="row">
+    <input type="hidden"
+           asp-for="AppointmentId" />
 
-    <div class="col-md-6">
+    <div class="mb-3">
+        <label asp-for="AppointmentDate"
+               class="form-label">
+        </label>
 
-        <form asp-action="Edit" method="post">
-
-            <input type="hidden"
-                   asp-for="Id" />
-
-            <div asp-validation-summary="ModelOnly"
-                 class="text-danger">
-            </div>
-
-            <div class="form-group mb-3">
-
-                <label asp-for="PatientId"
-                       class="form-label">
-                </label>
-
-                <input asp-for="PatientId"
-                       type="number"
-                       class="form-control" />
-
-                <span asp-validation-for="PatientId"
-                      class="text-danger">
-                </span>
-
-            </div>
-
-            <div class="form-group mb-3">
-
-                <label asp-for="DoctorId"
-                       class="form-label">
-                </label>
-
-                <input asp-for="DoctorId"
-                       type="number"
-                       class="form-control" />
-
-                <span asp-validation-for="DoctorId"
-                      class="text-danger">
-                </span>
-
-            </div>
-
-            <div class="form-group mb-3">
-
-                <label asp-for="AppointmentDate"
-                       class="form-label">
-                </label>
-
-                <input asp-for="AppointmentDate"
-                       type="datetime-local"
-                       class="form-control" />
-
-                <span asp-validation-for="AppointmentDate"
-                      class="text-danger">
-                </span>
-
-            </div>
-
-            <div class="form-group mb-3">
-
-                <label asp-for="Status"
-                       class="form-label">
-                </label>
-
-                <input asp-for="Status"
-                       class="form-control" />
-
-                <span asp-validation-for="Status"
-                      class="text-danger">
-                </span>
-
-            </div>
-
-            <div class="form-group mb-3">
-
-                <label asp-for="Reason"
-                       class="form-label">
-                </label>
-
-                <textarea asp-for="Reason"
-                          class="form-control"
-                          rows="4">
-                </textarea>
-
-                <span asp-validation-for="Reason"
-                      class="text-danger">
-                </span>
-
-            </div>
-
-            <button type="submit"
-                    class="btn btn-primary">
-                Save Changes
-            </button>
-
-            <a asp-action="Index"
-               class="btn btn-secondary">
-                Back
-            </a>
-
-        </form>
-
+        <input asp-for="AppointmentDate"
+               type="datetime-local"
+               class="form-control" />
     </div>
 
-</div>
+    <div class="mb-3">
+        <label asp-for="Status"
+               class="form-label">
+        </label>
 
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}
+        <input asp-for="Status"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Reason"
+               class="form-label">
+        </label>
+
+        <textarea asp-for="Reason"
+                  class="form-control">
+        </textarea>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PatientId"
+               class="form-label">
+        </label>
+
+        <input asp-for="PatientId"
+               class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DoctorId"
+               class="form-label">
+        </label>
+
+        <input asp-for="DoctorId"
+               class="form-control" />
+    </div>
+
+    <button type="submit"
+            class="btn btn-primary">
+        Update
+    </button>
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+        Back
+    </a>
+
+</form>
