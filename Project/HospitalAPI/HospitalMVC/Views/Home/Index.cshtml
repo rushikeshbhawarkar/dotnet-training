@@ -1,21 +1,50 @@
 ﻿@{
     ViewData["Title"] = "Hospital Management System";
+
+    var token = Context.Session.GetString("Token");
 }
 
 <div class="text-center mb-5">
-    <h1 class="display-4">Hospital Management System</h1>
+
+    <h1 class="display-4">
+        Hospital Management System
+    </h1>
+
     <p class="lead">
         Manage patients, doctors, departments and appointments.
     </p>
+
+    @if (string.IsNullOrEmpty(token))
+    {
+        <a asp-controller="Auth"
+           asp-action="Login"
+           class="btn btn-success">
+            Login
+        </a>
+    }
+    else
+    {
+        <a asp-controller="Auth"
+           asp-action="Logout"
+           class="btn btn-danger">
+            Logout
+        </a>
+    }
+
 </div>
 
 <div class="row">
 
     <!-- Patients -->
     <div class="col-md-6 col-lg-3 mb-4">
+
         <div class="card h-100 shadow-sm">
+
             <div class="card-body text-center">
-                <h3 class="card-title">Patients</h3>
+
+                <h3 class="card-title">
+                    Patients
+                </h3>
 
                 <p class="card-text">
                     Manage patient information and records.
@@ -26,15 +55,24 @@
                    class="btn btn-primary">
                     View Patients
                 </a>
+
             </div>
+
         </div>
+
     </div>
+
 
     <!-- Doctors -->
     <div class="col-md-6 col-lg-3 mb-4">
+
         <div class="card h-100 shadow-sm">
+
             <div class="card-body text-center">
-                <h3 class="card-title">Doctors</h3>
+
+                <h3 class="card-title">
+                    Doctors
+                </h3>
 
                 <p class="card-text">
                     Manage doctors and their specializations.
@@ -45,15 +83,24 @@
                    class="btn btn-primary">
                     View Doctors
                 </a>
+
             </div>
+
         </div>
+
     </div>
+
 
     <!-- Departments -->
     <div class="col-md-6 col-lg-3 mb-4">
+
         <div class="card h-100 shadow-sm">
+
             <div class="card-body text-center">
-                <h3 class="card-title">Departments</h3>
+
+                <h3 class="card-title">
+                    Departments
+                </h3>
 
                 <p class="card-text">
                     Manage hospital departments.
@@ -64,15 +111,24 @@
                    class="btn btn-primary">
                     View Departments
                 </a>
+
             </div>
+
         </div>
+
     </div>
+
 
     <!-- Appointments -->
     <div class="col-md-6 col-lg-3 mb-4">
+
         <div class="card h-100 shadow-sm">
+
             <div class="card-body text-center">
-                <h3 class="card-title">Appointments</h3>
+
+                <h3 class="card-title">
+                    Appointments
+                </h3>
 
                 <p class="card-text">
                     Manage patient appointments.
@@ -83,8 +139,11 @@
                    class="btn btn-primary">
                     View Appointments
                 </a>
+
             </div>
+
         </div>
+
     </div>
 
 </div>

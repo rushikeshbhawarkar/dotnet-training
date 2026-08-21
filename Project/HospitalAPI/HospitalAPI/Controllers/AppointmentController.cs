@@ -18,7 +18,7 @@ namespace HospitalAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin,Doctor")]
+        //[Authorize(Roles = "Admin,Doctor")]
         public IActionResult GetAll()
         {
             var appointments = _service.GetAll();
@@ -30,11 +30,6 @@ namespace HospitalAPI.Controllers
         public IActionResult GetById(int id)
         {
             var appointment = _service.GetById(id);
-
-            if (appointment == null)
-            {
-                return NotFound();
-            }
 
             return Ok(appointment);
         }
@@ -54,15 +49,11 @@ namespace HospitalAPI.Controllers
 
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin,Doctor")]
-
-        public IActionResult Update(int id, AppointmentDto appointmentDto)
+        public IActionResult Update(
+            int id,
+            AppointmentDto appointmentDto)
         {
             var appointment = _service.Update(id, appointmentDto);
-
-            if (appointment == null)
-            {
-                return NotFound();
-            }
 
             return Ok(appointment);
         }
@@ -71,12 +62,7 @@ namespace HospitalAPI.Controllers
         [Authorize(Roles = "Admin,Doctor")]
         public IActionResult Delete(int id)
         {
-            var result = _service.Delete(id);
-
-            if (!result)
-            {
-                return NotFound();
-            }
+            _service.Delete(id);
 
             return NoContent();
         }

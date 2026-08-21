@@ -19,7 +19,7 @@ namespace HospitalAPI.Services
 
             var patientDtos = patients.Select(patient => new PatientDto
             {
-                Id = patient.PatientId, // Maps PatientId -> Id
+                Id = patient.PatientId,
                 Name = patient.Name,
                 DateOfBirth = patient.DateOfBirth,
                 Gender = patient.Gender,
@@ -37,12 +37,14 @@ namespace HospitalAPI.Services
 
             if (patient == null)
             {
-                return null;
+                throw new KeyNotFoundException(
+                    "Patient with the given ID was not found."
+                );
             }
 
-            var patientDto = new PatientDto
+            return new PatientDto
             {
-                Id = patient.PatientId, // Maps PatientId -> Id
+                Id = patient.PatientId,
                 Name = patient.Name,
                 DateOfBirth = patient.DateOfBirth,
                 Gender = patient.Gender,
@@ -50,13 +52,10 @@ namespace HospitalAPI.Services
                 Phone = patient.Phone,
                 Address = patient.Address
             };
-
-            return patientDto;
         }
 
         public PatientDto Add(PatientDto patientDto)
         {
-            // DTO → Model
             var patient = new Patient
             {
                 Name = patientDto.Name,
@@ -67,19 +66,18 @@ namespace HospitalAPI.Services
                 Address = patientDto.Address
             };
 
-            // Business rule
             if (patient.DateOfBirth > DateTime.Now)
             {
-                throw new Exception("Date of birth cannot be in the future.");
+                throw new ArgumentException(
+                    "Date of birth cannot be in the future."
+                );
             }
 
-            // Model → Repository
             var savedPatient = _repository.Add(patient);
 
-            // Model → DTO
-            var result = new PatientDto
+            return new PatientDto
             {
-                Id = savedPatient.PatientId, // Maps PatientId -> Id
+                Id = savedPatient.PatientId,
                 Name = savedPatient.Name,
                 DateOfBirth = savedPatient.DateOfBirth,
                 Gender = savedPatient.Gender,
@@ -87,16 +85,15 @@ namespace HospitalAPI.Services
                 Phone = savedPatient.Phone,
                 Address = savedPatient.Address
             };
-
-            return result;
         }
 
-        public PatientDto? Update(int id, PatientDto patientDto)
+        public PatientDto? Update(
+            int id,
+            PatientDto patientDto)
         {
-            // DTO → Model
             var patient = new Patient
             {
-                PatientId = id, // Maps id parameter -> PatientId
+                PatientId = id,
                 Name = patientDto.Name,
                 DateOfBirth = patientDto.DateOfBirth,
                 Gender = patientDto.Gender,
@@ -107,20 +104,24 @@ namespace HospitalAPI.Services
 
             if (patient.DateOfBirth > DateTime.Now)
             {
-                throw new Exception("Date of birth cannot be in the future.");
+                throw new ArgumentException(
+                    "Date of birth cannot be in the future."
+                );
             }
 
-            var updatedPatient = _repository.Update(id, patient);
+            var updatedPatient =
+                _repository.Update(id, patient);
 
             if (updatedPatient == null)
             {
-                return null;
+                throw new KeyNotFoundException(
+                    "Patient with the given ID was not found."
+                );
             }
 
-            // Model → DTO
             return new PatientDto
             {
-                Id = updatedPatient.PatientId, // Maps PatientId -> Id
+                Id = updatedPatient.PatientId,
                 Name = updatedPatient.Name,
                 DateOfBirth = updatedPatient.DateOfBirth,
                 Gender = updatedPatient.Gender,
@@ -132,7 +133,16 @@ namespace HospitalAPI.Services
 
         public bool Delete(int id)
         {
-            return _repository.Delete(id);
+            var deleted = _repository.Delete(id);
+
+            if (!deleted)
+            {
+                throw new KeyNotFoundException(
+                    "Patient with the given ID was not found."
+                );
+            }
+
+            return true;
         }
     }
 }

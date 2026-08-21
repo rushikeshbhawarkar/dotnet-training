@@ -1,5 +1,6 @@
 ﻿using HospitalMVC.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
 using System.Net.Http.Json;
 
 namespace HospitalMVC.Controllers
@@ -13,10 +14,18 @@ namespace HospitalMVC.Controllers
             _httpClientFactory = httpClientFactory;
         }
 
-        // GET: Patient/Index
         public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
+
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
             var response = await client.GetAsync("api/Patient");
 
             if (!response.IsSuccessStatusCode)
@@ -24,32 +33,43 @@ namespace HospitalMVC.Controllers
                 return View(new List<Patient>());
             }
 
-            var patients = await response.Content.ReadFromJsonAsync<List<Patient>>();
+            var patients =
+                await response.Content.ReadFromJsonAsync<List<Patient>>();
+
             return View(patients ?? new List<Patient>());
         }
 
-        // GET: Patient/Details/5
         public async Task<IActionResult> Details(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
-            var response = await client.GetAsync($"api/Patient/{id}");
+
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await client.GetAsync(
+                $"api/Patient/{id}");
 
             if (!response.IsSuccessStatusCode)
             {
                 return NotFound();
             }
 
-            var patient = await response.Content.ReadFromJsonAsync<Patient>();
+            var patient =
+                await response.Content.ReadFromJsonAsync<Patient>();
+
             return View(patient);
         }
 
-        // GET: Patient/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Patient/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Patient patient)
@@ -60,36 +80,62 @@ namespace HospitalMVC.Controllers
             }
 
             var client = _httpClientFactory.CreateClient("HospitalAPI");
-            var response = await client.PostAsJsonAsync("api/Patient", patient);
+
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await client.PostAsJsonAsync(
+                "api/Patient",
+                patient);
 
             if (!response.IsSuccessStatusCode)
             {
-                ModelState.AddModelError(string.Empty, "Failed to create patient record.");
+                ModelState.AddModelError(
+                    string.Empty,
+                    "Failed to create patient record.");
+
                 return View(patient);
             }
 
             return RedirectToAction(nameof(Index));
         }
 
-        // GET: Patient/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
-            var response = await client.GetAsync($"api/Patient/{id}");
+
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await client.GetAsync(
+                $"api/Patient/{id}");
 
             if (!response.IsSuccessStatusCode)
             {
                 return NotFound();
             }
 
-            var patient = await response.Content.ReadFromJsonAsync<Patient>();
+            var patient =
+                await response.Content.ReadFromJsonAsync<Patient>();
+
             return View(patient);
         }
 
-        // POST: Patient/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Patient patient)
+        public async Task<IActionResult> Edit(
+            int id,
+            Patient patient)
         {
             if (!ModelState.IsValid)
             {
@@ -97,39 +143,73 @@ namespace HospitalMVC.Controllers
             }
 
             var client = _httpClientFactory.CreateClient("HospitalAPI");
-            var response = await client.PutAsJsonAsync($"api/Patient/{id}", patient);
+
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await client.PutAsJsonAsync(
+                $"api/Patient/{id}",
+                patient);
 
             if (!response.IsSuccessStatusCode)
             {
-                ModelState.AddModelError(string.Empty, "Failed to update patient record.");
+                ModelState.AddModelError(
+                    string.Empty,
+                    "Failed to update patient record.");
+
                 return View(patient);
             }
 
             return RedirectToAction(nameof(Index));
         }
 
-        // GET: Patient/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
-            var response = await client.GetAsync($"api/Patient/{id}");
+
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await client.GetAsync(
+                $"api/Patient/{id}");
 
             if (!response.IsSuccessStatusCode)
             {
                 return NotFound();
             }
 
-            var patient = await response.Content.ReadFromJsonAsync<Patient>();
+            var patient =
+                await response.Content.ReadFromJsonAsync<Patient>();
+
             return View(patient);
         }
 
-        // POST: Patient/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
-            var response = await client.DeleteAsync($"api/Patient/{id}");
+
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await client.DeleteAsync(
+                $"api/Patient/{id}");
 
             if (!response.IsSuccessStatusCode)
             {

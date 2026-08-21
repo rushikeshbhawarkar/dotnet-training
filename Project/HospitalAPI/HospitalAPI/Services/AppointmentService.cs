@@ -36,7 +36,9 @@ namespace HospitalAPI.Services
 
             if (appointment == null)
             {
-                return null;
+                throw new KeyNotFoundException(
+                    "Appointment with the given ID was not found."
+                );
             }
 
             return new AppointmentDto
@@ -70,7 +72,9 @@ namespace HospitalAPI.Services
             return appointmentDto;
         }
 
-        public AppointmentDto? Update(int id, AppointmentDto appointmentDto)
+        public AppointmentDto? Update(
+            int id,
+            AppointmentDto appointmentDto)
         {
             var appointment = new Appointment
             {
@@ -81,11 +85,14 @@ namespace HospitalAPI.Services
                 DoctorId = appointmentDto.DoctorId
             };
 
-            var updatedAppointment = _repository.Update(id, appointment);
+            var updatedAppointment =
+                _repository.Update(id, appointment);
 
             if (updatedAppointment == null)
             {
-                return null;
+                throw new KeyNotFoundException(
+                    "Appointment with the given ID was not found."
+                );
             }
 
             return new AppointmentDto
@@ -101,7 +108,16 @@ namespace HospitalAPI.Services
 
         public bool Delete(int id)
         {
-            return _repository.Delete(id);
+            var deleted = _repository.Delete(id);
+
+            if (!deleted)
+            {
+                throw new KeyNotFoundException(
+                    "Appointment with the given ID was not found."
+                );
+            }
+
+            return true;
         }
     }
 }

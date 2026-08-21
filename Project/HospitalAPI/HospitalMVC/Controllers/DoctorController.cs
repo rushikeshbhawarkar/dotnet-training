@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using aug_17_mvc.Models;
 
@@ -17,7 +18,16 @@ namespace aug_17_mvc.Controllers
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
-            var doctors = await client.GetFromJsonAsync<List<Doctor>>("api/Doctor");
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var doctors = await client.GetFromJsonAsync<List<Doctor>>(
+                "api/Doctor");
 
             return View(doctors);
         }
@@ -26,7 +36,16 @@ namespace aug_17_mvc.Controllers
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
-            var doctor = await client.GetFromJsonAsync<Doctor>($"api/Doctor/{id}");
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var doctor = await client.GetFromJsonAsync<Doctor>(
+                $"api/Doctor/{id}");
 
             if (doctor == null)
             {
@@ -51,7 +70,17 @@ namespace aug_17_mvc.Controllers
 
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
-            var response = await client.PostAsJsonAsync("api/Doctor", doctor);
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await client.PostAsJsonAsync(
+                "api/Doctor",
+                doctor);
 
             if (response.IsSuccessStatusCode)
             {
@@ -65,7 +94,16 @@ namespace aug_17_mvc.Controllers
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
-            var doctor = await client.GetFromJsonAsync<Doctor>($"api/Doctor/{id}");
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var doctor = await client.GetFromJsonAsync<Doctor>(
+                $"api/Doctor/{id}");
 
             if (doctor == null)
             {
@@ -76,7 +114,9 @@ namespace aug_17_mvc.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int id, Doctor doctor)
+        public async Task<IActionResult> Edit(
+            int id,
+            Doctor doctor)
         {
             if (!ModelState.IsValid)
             {
@@ -85,10 +125,17 @@ namespace aug_17_mvc.Controllers
 
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
             var response = await client.PutAsJsonAsync(
                 $"api/Doctor/{id}",
-                doctor
-            );
+                doctor);
 
             if (response.IsSuccessStatusCode)
             {
@@ -102,7 +149,16 @@ namespace aug_17_mvc.Controllers
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
-            var doctor = await client.GetFromJsonAsync<Doctor>($"api/Doctor/{id}");
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var doctor = await client.GetFromJsonAsync<Doctor>(
+                $"api/Doctor/{id}");
 
             if (doctor == null)
             {
@@ -117,7 +173,16 @@ namespace aug_17_mvc.Controllers
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
-            var response = await client.DeleteAsync($"api/Doctor/{id}");
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await client.DeleteAsync(
+                $"api/Doctor/{id}");
 
             if (response.IsSuccessStatusCode)
             {

@@ -31,7 +31,9 @@ namespace HospitalAPI.Services
 
             if (department == null)
             {
-                return null;
+                throw new KeyNotFoundException(
+                    "Department with the given ID was not found."
+                );
             }
 
             return new DepartmentDto
@@ -57,7 +59,9 @@ namespace HospitalAPI.Services
             return departmentDto;
         }
 
-        public DepartmentDto? Update(int id, DepartmentDto departmentDto)
+        public DepartmentDto? Update(
+            int id,
+            DepartmentDto departmentDto)
         {
             var department = new Department
             {
@@ -65,11 +69,14 @@ namespace HospitalAPI.Services
                 Description = departmentDto.Description
             };
 
-            var updatedDepartment = _repository.Update(id, department);
+            var updatedDepartment =
+                _repository.Update(id, department);
 
             if (updatedDepartment == null)
             {
-                return null;
+                throw new KeyNotFoundException(
+                    "Department with the given ID was not found."
+                );
             }
 
             return new DepartmentDto
@@ -82,7 +89,16 @@ namespace HospitalAPI.Services
 
         public bool Delete(int id)
         {
-            return _repository.Delete(id);
+            var deleted = _repository.Delete(id);
+
+            if (!deleted)
+            {
+                throw new KeyNotFoundException(
+                    "Department with the given ID was not found."
+                );
+            }
+
+            return true;
         }
     }
 }

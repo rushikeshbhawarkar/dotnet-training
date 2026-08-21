@@ -31,11 +31,6 @@ namespace HospitalAPI.Controllers
         {
             var patient = _service.GetById(id);
 
-            if (patient == null)
-            {
-                return NotFound();
-            }
-
             return Ok(patient);
         }
 
@@ -50,14 +45,11 @@ namespace HospitalAPI.Controllers
 
         [HttpPut("{id}")]
         [Authorize(Roles = "Admin,Doctor")]
-        public IActionResult Update(int id, PatientDto patientDto)
+        public IActionResult Update(
+            int id,
+            PatientDto patientDto)
         {
             var result = _service.Update(id, patientDto);
-
-            if (result == null)
-            {
-                return NotFound();
-            }
 
             return Ok(result);
         }
@@ -66,12 +58,7 @@ namespace HospitalAPI.Controllers
         [Authorize(Roles = "Admin,Doctor")]
         public IActionResult Delete(int id)
         {
-            var result = _service.Delete(id);
-
-            if (!result)
-            {
-                return NotFound();
-            }
+            _service.Delete(id);
 
             return Ok("Patient deleted successfully.");
         }

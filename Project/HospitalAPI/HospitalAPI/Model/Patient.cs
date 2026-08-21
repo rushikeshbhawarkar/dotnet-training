@@ -13,11 +13,10 @@ namespace HospitalAPI.Model
         [Required(ErrorMessage = "DateOfBirth is Required")]
         public DateTime DateOfBirth { get; set; }
         [Required(ErrorMessage = "Gender is Required")]
-
         public string? Gender { get; set; }
 
-        [Required(ErrorMessage = "Gender is Required")]
-        [EmailAddress(ErrorMessage= "Invalid Email")]
+        [Required(ErrorMessage = "Email is Required")]
+        [EmailAddress(ErrorMessage = "Invalid Email")]
         public string? Email { get; set; }
 
         [Required(ErrorMessage = "Phone is Required")]

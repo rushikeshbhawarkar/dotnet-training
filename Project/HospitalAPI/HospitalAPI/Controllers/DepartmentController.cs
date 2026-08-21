@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HospitalAPI.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     [ApiController]
     [Route("api/[controller]")]
     public class DepartmentController : ControllerBase
@@ -30,15 +30,11 @@ namespace HospitalAPI.Controllers
         {
             var department = _service.GetById(id);
 
-            if (department == null)
-            {
-                return NotFound();
-            }
-
             return Ok(department);
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public IActionResult Add(DepartmentDto departmentDto)
         {
             var department = _service.Add(departmentDto);
@@ -51,27 +47,21 @@ namespace HospitalAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, DepartmentDto departmentDto)
+        [Authorize(Roles = "Admin")]
+        public IActionResult Update(
+            int id,
+            DepartmentDto departmentDto)
         {
             var department = _service.Update(id, departmentDto);
-
-            if (department == null)
-            {
-                return NotFound();
-            }
 
             return Ok(department);
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public IActionResult Delete(int id)
         {
-            var result = _service.Delete(id);
-
-            if (!result)
-            {
-                return NotFound();
-            }
+            _service.Delete(id);
 
             return NoContent();
         }

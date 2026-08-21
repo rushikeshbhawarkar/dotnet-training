@@ -34,7 +34,9 @@ namespace HospitalAPI.Services
 
             if (doctor == null)
             {
-                return null;
+                throw new KeyNotFoundException(
+                    "Doctor with the given ID was not found."
+                );
             }
 
             return new DoctorDto
@@ -81,7 +83,9 @@ namespace HospitalAPI.Services
 
             if (updatedDoctor == null)
             {
-                return null;
+                throw new KeyNotFoundException(
+                    "Doctor with the given ID was not found."
+                );
             }
 
             return new DoctorDto
@@ -97,7 +101,16 @@ namespace HospitalAPI.Services
 
         public bool Delete(int id)
         {
-            return _repository.Delete(id);
+            var deleted = _repository.Delete(id);
+
+            if (!deleted)
+            {
+                throw new KeyNotFoundException(
+                    "Doctor with the given ID was not found."
+                );
+            }
+
+            return true;
         }
     }
 }

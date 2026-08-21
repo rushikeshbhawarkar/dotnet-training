@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using aug_17_mvc.Models;
 
@@ -17,6 +18,14 @@ namespace aug_17_mvc.Controllers
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
             var departments = await client.GetFromJsonAsync<List<Department>>(
                 "api/Department");
 
@@ -26,6 +35,14 @@ namespace aug_17_mvc.Controllers
         public async Task<IActionResult> Details(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
+
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
 
             var department = await client.GetFromJsonAsync<Department>(
                 $"api/Department/{id}");
@@ -53,6 +70,14 @@ namespace aug_17_mvc.Controllers
 
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
             var response = await client.PostAsJsonAsync(
                 "api/Department",
                 department);
@@ -69,6 +94,14 @@ namespace aug_17_mvc.Controllers
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
             var department = await client.GetFromJsonAsync<Department>(
                 $"api/Department/{id}");
 
@@ -81,7 +114,9 @@ namespace aug_17_mvc.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int id, Department department)
+        public async Task<IActionResult> Edit(
+            int id,
+            Department department)
         {
             if (!ModelState.IsValid)
             {
@@ -89,6 +124,14 @@ namespace aug_17_mvc.Controllers
             }
 
             var client = _httpClientFactory.CreateClient("HospitalAPI");
+
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
 
             var response = await client.PutAsJsonAsync(
                 $"api/Department/{id}",
@@ -106,6 +149,14 @@ namespace aug_17_mvc.Controllers
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
 
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
+
             var department = await client.GetFromJsonAsync<Department>(
                 $"api/Department/{id}");
 
@@ -121,6 +172,14 @@ namespace aug_17_mvc.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var client = _httpClientFactory.CreateClient("HospitalAPI");
+
+            var token = HttpContext.Session.GetString("Token");
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization =
+                    new AuthenticationHeaderValue("Bearer", token);
+            }
 
             var response = await client.DeleteAsync(
                 $"api/Department/{id}");
